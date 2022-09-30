@@ -4,8 +4,8 @@ from datetime import datetime
 from pprint import pprint
 
 url = 'https://api.openweathermap.org/data/2.5/forecast'
-# key = os.environ.get('WEATHER_KEY')
-key = 'cef1079916e0dbcd5eed83f42cd53f1e'
+key = os.environ.get('WEATHER_KEY')
+
 
 
 def main():
